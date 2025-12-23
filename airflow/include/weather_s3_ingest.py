@@ -199,11 +199,3 @@ def run_weather_extraction(
         "s3_key": s3_key,
         "location": config.location,
     }
-
-if __name__ == "__main__":
-    # For local testing purposes
-    run_weather_extraction(
-        location="Bangkok",
-        s3_bucket="your-s3-bucket-name",
-        target_date="2023-01-01",
-    )
